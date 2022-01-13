@@ -2,12 +2,12 @@
 @media screen and (max-width:860px) {
     .form{
         margin-top:110px;
-        width:300px;
+        max-width:600px;
         height:600px;
     }
     h3{
         font-size: 2rem;
-        width:290px;
+        max-width:290px;
     }
     .recuperar-senha{
         margin-top:30px;
@@ -22,30 +22,31 @@
 
 
 @media screen and (max-width:600px) {
-
+    
     h3{
-        margin-left:50px;
+        margin-left:150px;
     }
     .form{
-        height: 550px;
+       
+        max-width:300px;
         margin-top:10px;
     }
     .title-form{
-        width:800px;
-        margin-right: 70px;
+        max-width:300px;
+        
     }
     .recuperar-senha{
         margin-top:0px;
     }
     .hospital-care{
-        width:0px;
+        max-width:0px;
         height:0px;
     }
 }
 @media screen and (max-width:340px){
 
     input{
-       width: 150px;
+       max-width: 150px;
     }
 
 }

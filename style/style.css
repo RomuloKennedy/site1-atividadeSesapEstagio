@@ -17,14 +17,12 @@ h3{
     margin: 1.9466666667rem 0 1.168rem 0;
 }
 body{
-    height:100%;
     margin:0;
     background:var(--cor);
     background-repeat: no-repeat;
     background-attachment:fixed;
     display: flex;
     justify-content: center;
-    
 }
 .login-form{
     display: flex;
@@ -57,7 +55,7 @@ body{
 input{
     
     border:none;
-    width: 250px;
+    max-width: 250px;
     margin-top: 25px;
     height:45px;
     outline: none;
@@ -77,8 +75,8 @@ input{
     align-items: center;
     
     
-
-    width: 750px;
+    
+    max-width: 750px;
     margin-top:140px;
     color:white;
 }
@@ -94,7 +92,7 @@ input{
     align-items: center;
     justify-content: center;
     margin-right: 160px;
-    width:700px;
+    max-width:700px;
 }
 #Email{
     margin-left:10px;
