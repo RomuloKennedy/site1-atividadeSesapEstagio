@@ -16,7 +16,7 @@
     }
     .footer{
      
-        margin-top:30px;
+        margin-top:100px;
       
     }
 }
@@ -38,11 +38,14 @@
         
     }
     .recuperar-senha{
-        margin-top:0px;
+        margin-top:20px;
     }
     .hospital-care{
         max-width:0px;
         height:0px;
+    }
+    .footer{
+        
     }
 }
 @media screen and (max-width:340px){

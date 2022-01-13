@@ -16,13 +16,16 @@ h3{
     line-height: 110%;
     margin: 1.9466666667rem 0 1.168rem 0;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 body{
     margin:0;
     background:var(--cor);
     background-repeat: no-repeat;
     background-attachment:fixed;
-    display: flex;
-    justify-content: center;
+  
 }
 .login-form{
     display: flex;
@@ -121,8 +124,11 @@ input{
 }
 .footer{
     display:flex;
-    position:absolute;
-    bottom:0;
+    justify-content: center;
+    margin-top:250px;
+
+    
+    
     color:white;
 
     align-items: center;
