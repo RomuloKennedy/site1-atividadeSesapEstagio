@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pronto Atendimento Hospitalar - Entrada</title>
+    <link rel="icon" href="http://www.sispah2.saude.rn.gov.br/img/UGTSIC_fav.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    
+    <!-- CSS RESPONSIVO-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- Fonts icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+
+<main>
+
+    <form action="" class="form">
+        
+        <div class="title-form">
+            <image src="http://www.sispah2.saude.rn.gov.br/img/gel_logo_light.png" alt="gel_logo_light" class="hospital-care"></image>
+            <div >
+                <h3>Sistema de Pronto Atendimento Hospitalar - Entrada</h3>
+            </div>
+        </div>
+        
+            <h4 style="margin-bottom:30px; margin-top:8px; font-size: 25px;">Acesso Restrito</h4>
+        
+        <div class="login-form">      
+            
+            <label for="inputEmail" style="color:white; font-size: 18px; margin-top:35px;">Email:</label>
+            <input type="email" id="Email" placeholder="email"><i class="material-icons email-icon icons">email</i>
+            
+        </div>
+        
+        <div class="login-form">
+            
+            <label for="inputSenha" style="color:white; font-size: 18px; margin-top:35px;">Senha:</label>
+            <input type="password" id="Senha" placeholder="senha"><i class="material-icons icons">lock</i>
+            
+        </div>   
+
+        <div class="check-box">
+            
+            <input type="checkbox" id="Checkbox" style="height:18px; width: 18px; border-radius:16px;" onclick="alterarVisibilidade()">
+            <label for="inputCheckbox" style="margin-top:25px;">Mostrar Senha</label>
+
+        </div>
+        <button type="submit" value="Submit" class="waves-effect waves-light btn botao ">Entrar</button>
+
+    </form>
+
+
+    <a href="" class="recuperar-senha">Esqueceu a Senha?</a>
+
+
+</main>
+
+
+<footer class="footer">
+    <h5 style="margin:0;font-size: 16px;">(Versão 4.30.32)</h5>
+    <image src="http://www.sispah2.saude.rn.gov.br/img/logo_15x5.png" alt="logo_ugtsic" class="logo-ugtsic"></image>
+    <script type="text/javascript" src="js/index.js"></script>
+</footer>
+
+</body>
+</html>
