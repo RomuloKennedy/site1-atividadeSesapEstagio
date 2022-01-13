@@ -25,7 +25,7 @@ body{
     background:var(--cor);
     background-repeat: no-repeat;
     background-attachment:fixed;
-  
+      
 }
 .login-form{
     display: flex;
@@ -124,13 +124,8 @@ input{
 }
 .footer{
     display:flex;
-    justify-content: center;
-    margin-top:250px;
-
-    
-    
+    justify-content: center;   
     color:white;
-
     align-items: center;
-
+    margin-top:250px;
 }
